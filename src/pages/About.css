@@ -1,0 +1,228 @@
+.about-hero-section {
+  padding: 50px 0 70px;
+}
+
+.about-hero-container {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.about-hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-hero-heading {
+  font-size: clamp(2.6rem, 4.8vw, 4rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.about-story-paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--brown-muted);
+  font-size: 1.08rem;
+  line-height: 1.65;
+  max-width: 520px;
+}
+
+.about-cta-row {
+  margin-top: 8px;
+}
+
+.about-taste-btn {
+  padding: 14px 30px;
+  font-size: 1rem;
+}
+
+/* Right Image Area */
+.about-hero-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.about-sparkle-decor {
+  position: absolute;
+  top: -24px;
+  right: 16px;
+  z-index: 10;
+}
+
+.pink-sparkle {
+  color: var(--pink-primary);
+  fill: var(--pink-primary);
+}
+
+.about-image-card {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 0.88 / 1;
+  border-radius: 40px;
+  overflow: visible;
+  box-shadow: 0 24px 50px rgba(59, 36, 22, 0.12);
+  border: 8px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.about-knead-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+  display: block;
+}
+
+/* Floating Brand Card */
+.about-floating-brand-card {
+  position: absolute;
+  bottom: -30px;
+  right: -24px;
+  background: var(--brown-dark);
+  color: #ffffff;
+  padding: 24px 28px;
+  border-radius: 28px;
+  max-width: 320px;
+  box-shadow: 0 16px 40px rgba(59, 36, 22, 0.22);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 4px solid var(--bg-cream);
+  animation: floatSubtle 4.5s ease-in-out infinite;
+}
+
+.about-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.about-card-logo-badge {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  flex-shrink: 0;
+}
+
+.about-card-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-card-brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-card-name {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.about-card-tag {
+  font-size: 0.62rem;
+  font-weight: 800;
+  color: var(--pink-primary);
+  letter-spacing: 0.18em;
+}
+
+.about-card-quote {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+/* Promise Section */
+.promise-section {
+  padding: 80px 0 60px;
+}
+
+.promise-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 48px;
+}
+
+.promise-title {
+  font-size: clamp(2.2rem, 3.8vw, 3rem);
+  font-weight: 800;
+}
+
+.promise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.promise-card {
+  background: #ffffff;
+  padding: 36px 30px;
+  border-radius: 28px;
+  border: 1px solid rgba(59, 36, 22, 0.06);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.promise-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(233, 30, 99, 0.25);
+}
+
+.promise-number {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--pink-primary);
+  opacity: 0.85;
+  line-height: 1;
+}
+
+.promise-card-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--brown-dark);
+}
+
+.promise-card-desc {
+  color: var(--brown-muted);
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 960px) {
+  .about-hero-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .about-image-card {
+    max-width: 400px;
+  }
+  .about-floating-brand-card {
+    right: 0px;
+    bottom: -20px;
+  }
+  .promise-grid {
+    grid-template-columns: 1fr;
+  }
+}

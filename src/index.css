@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap');
+
+:root {
+  --bg-cream: #FDF3E3;
+  --bg-cream-alt: #FCF8F1;
+  --bg-cream-dark: #F5E8D3;
+  --brown-dark: #3B2416;
+  --brown-deep: #2A170C;
+  --brown-muted: #8A7A6D;
+  --brown-light: #A39487;
+  --pink-primary: #E91E63;
+  --pink-hover: #D81557;
+  --pink-subtle: #FDF0F4;
+  --pink-badge-bg: #FEEBF1;
+  --pink-glow: rgba(233, 30, 99, 0.35);
+  --white: #FFFFFF;
+  --whatsapp-green: #25D366;
+  --whatsapp-green-hover: #20BD5A;
+  
+  --font-heading: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  --shadow-sm: 0 2px 8px rgba(59, 36, 22, 0.04);
+  --shadow-md: 0 8px 24px rgba(59, 36, 22, 0.08);
+  --shadow-lg: 0 16px 36px rgba(59, 36, 22, 0.12);
+  --shadow-floating: 0 12px 32px rgba(59, 36, 22, 0.15);
+  --shadow-pink: 0 8px 24px rgba(233, 30, 99, 0.35);
+  --shadow-whatsapp: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--bg-cream);
+  color: var(--brown-dark);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Background subtle dot texture */
+.dot-bg {
+  background-image: radial-gradient(rgba(59, 36, 22, 0.065) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Typography Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--brown-dark);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+/* Common Layout Containers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.container-wide {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Pill Badges */
+.pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 9999px;
+  background-color: #F6EBDA;
+  color: var(--brown-dark);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.pill-badge .badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--pink-primary);
+  display: inline-block;
+}
+
+/* Common Buttons */
+.btn-pink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 26px;
+  border-radius: 9999px;
+  background: var(--pink-primary);
+  color: var(--white);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--shadow-pink);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-pink:hover {
+  background: var(--pink-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(233, 30, 99, 0.45);
+}
+
+.btn-pink:active {
+  transform: translateY(0);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 26px;
+  border-radius: 9999px;
+  background: var(--white);
+  color: var(--brown-dark);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1.5px solid rgba(59, 36, 22, 0.18);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-outline:hover {
+  background: #FAF3E8;
+  border-color: var(--brown-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 28px;
+  border-radius: 9999px;
+  background: var(--brown-dark);
+  color: var(--white);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: all 0.25s ease;
+}
+
+.btn-dark:hover {
+  background: var(--brown-deep);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Floating WhatsApp Button */
+.floating-whatsapp-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background-color: var(--whatsapp-green);
+  color: var(--white);
+  padding: 12px 22px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: var(--shadow-whatsapp);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+
+.floating-whatsapp-btn:hover {
+  background-color: var(--whatsapp-green-hover);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 10px 28px rgba(37, 211, 102, 0.55);
+}
+
+/* Stylized Pink Script Underline Effect for Sweetness */
+.pink-highlight {
+  color: var(--pink-primary);
+  position: relative;
+  display: inline-block;
+}
+
+.hand-drawn-line {
+  position: absolute;
+  left: -4%;
+  bottom: 4px;
+  width: 108%;
+  height: 12px;
+  pointer-events: none;
+}
+
+/* Full Width Dark Strip Marquee */
+.marquee-wrapper {
+  background-color: var(--brown-dark);
+  color: var(--white);
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 18px 0;
+  display: flex;
+  user-select: none;
+}
+
+.marquee-content {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  animation: scrollMarquee 26s linear infinite;
+  padding-left: 32px;
+}
+
+.marquee-item {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.marquee-star {
+  color: var(--pink-primary);
+  font-size: 0.9rem;
+}
+
+@keyframes scrollMarquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .floating-whatsapp-btn span {
+    display: inline;
+  }
+}
+
+@media (max-width: 600px) {
+  .floating-whatsapp-btn {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 18px;
+    font-size: 0.88rem;
+  }
+}
