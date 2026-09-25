@@ -3,7 +3,7 @@
 **Bakers Point Bakery**
 Last updated: 9/25/2026
 
-Bakers Point ("we," "us," "our") operates [DOMAIN TO BE ADDED] (the "Site"). This Privacy Policy explains what information we collect when you use the Site, how we use it, and your rights regarding that information.
+Bakers Point ("we") operates [https://baker-s-point.vercel.app/](https://baker-s-point.vercel.app/) (the "Site"). This Privacy Policy explains what information we collect when you use the Site, how we use it, and your rights regarding that information.
 
 By using the Site, you agree to the collection and use of information as described in this policy.
 

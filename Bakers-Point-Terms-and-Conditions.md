@@ -3,7 +3,7 @@
 **Bakers Point Bakery**
 Last updated: 9/25/2026
 
-Welcome to Bakers Point ("we," "us," "our"). These Terms & Conditions ("Terms") govern your use of [DOMAIN TO BE ADDED] (the "Site") and any orders, bookings, or enquiries you make through it or through WhatsApp as a result of using it. By using the Site or placing an order with us, you agree to these Terms.
+Welcome to Bakers Point ("we"). These Terms & Conditions ("Terms") govern your use of [https://baker-s-point.vercel.app/](https://baker-s-point.vercel.app/) (the "Site") and any orders, bookings, or enquiries you make through it or through WhatsApp as a result of using it. By using the Site or placing an order with us, you agree to these Terms.
 
 If you do not agree with these Terms, please do not use the Site or place an order with us.
 
