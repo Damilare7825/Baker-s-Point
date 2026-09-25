@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Sparkles, Eye, Repeat, Check, Users } from 'lucide-react';
+import { Phone, Eye, Repeat, Check, Users } from 'lucide-react';
 import './MenuCard.css';
 
 export default function MenuCard({ item, onOpenDetails }) {
@@ -52,7 +52,6 @@ export default function MenuCard({ item, onOpenDetails }) {
     >
       {popular && (
         <div className="popular-badge">
-          <Sparkles size={12} />
           <span>Favourite</span>
         </div>
       )}

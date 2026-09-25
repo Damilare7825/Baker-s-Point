@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import CelebrationBanner from '../components/CelebrationBanner';
 import './About.css';
 import PageMeta from '../components/PageMeta';
@@ -60,11 +60,6 @@ export default function About() {
 
           {/* Right Image with Floating Card */}
           <div className="about-hero-right">
-            {/* Sparkle decorative */}
-            <div className="about-sparkle-decor">
-              <Sparkles size={28} className="pink-sparkle" />
-            </div>
-
             <div className="about-image-card">
               <img 
                 src="/images/about-knead.jpg" 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Phone, Sparkles, Users, ChevronLeft, ChevronRight, Check, Plus, Minus } from 'lucide-react';
+import { X, Phone, Users, ChevronLeft, ChevronRight, Check, Plus, Minus } from 'lucide-react';
 import './ItemDetailModal.css';
 
 export default function ItemDetailModal({ item, initialImageIndex = 1, onClose }) {
@@ -138,7 +138,7 @@ export default function ItemDetailModal({ item, initialImageIndex = 1, onClose }
                 <span className="item-modal-cat">{item.category}</span>
                 {item.popular && (
                   <span className="item-modal-fav">
-                    <Sparkles size={12} /> Favourite
+                    Favourite
                   </span>
                 )}
               </div>

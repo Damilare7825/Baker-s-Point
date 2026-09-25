@@ -4,7 +4,7 @@ import { MENU_ITEMS, CATEGORIES } from '../data/menuData';
 import MenuCard from '../components/MenuCard';
 import ItemDetailModal from '../components/ItemDetailModal';
 import CelebrationBanner from '../components/CelebrationBanner';
-import { Image as ImageIcon, X, Sparkles } from 'lucide-react';
+import { Image as ImageIcon, X } from 'lucide-react';
 import './Menu.css';
 import PageMeta from '../components/PageMeta';
 
@@ -87,7 +87,6 @@ export default function Menu() {
         <div className="menu-items-meta">
           <span>Showing <strong>{filteredItems.length}</strong> delicious {activeCategory === 'All' ? 'items' : activeCategory}</span>
           <span className="interactive-hint-pill">
-            <Sparkles size={13} />
             <span>Click any item to flip image & explore details</span>
           </span>
         </div>

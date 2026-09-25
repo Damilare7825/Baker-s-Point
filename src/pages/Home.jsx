@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Phone, Calendar, ArrowRight, Sparkles, Heart } from 'lucide-react';
+import { Phone, Calendar, ArrowRight, Heart } from 'lucide-react';
 import CategoryCard from '../components/CategoryCard';
 import CelebrationBanner from '../components/CelebrationBanner';
 import PageMeta from '../components/PageMeta';
@@ -119,7 +119,6 @@ export default function Home() {
 
               {/* Floating Top-Left White Card */}
               <div className="floating-badge-baked">
-                <Sparkles size={16} className="badge-sparkle-icon" />
                 <div className="badge-baked-text">
                   <span className="badge-baked-title">BAKED FRESH</span>
                   <span className="badge-baked-sub">for every order</span>

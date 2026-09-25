@@ -16,10 +16,7 @@ export default function MarqueeStrip() {
     <div className="marquee-wrapper" aria-hidden="true">
       <div className="marquee-content">
         {items.concat(items).map((item, index) => (
-          <span key={index} className="marquee-item">
-            {item}
-            <span className="marquee-star">✦</span>
-          </span>
+          <span key={index} className="marquee-item">{item}</span>
         ))}
       </div>
     </div>

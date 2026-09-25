@@ -257,11 +257,6 @@ button, input, select, textarea {
   gap: 32px;
 }
 
-.marquee-star {
-  color: var(--pink-primary);
-  font-size: 0.9rem;
-}
-
 @keyframes scrollMarquee {
   from {
     transform: translateX(0);

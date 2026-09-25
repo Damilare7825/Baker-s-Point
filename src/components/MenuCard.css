@@ -279,3 +279,55 @@
   box-shadow: 0 6px 14px rgba(233, 30, 99, 0.35);
   transform: translateY(-1px);
 }
+
+@media (max-width: 640px) {
+  .menu-card {
+    padding: 10px;
+    border-radius: 16px;
+  }
+
+  .menu-card-image-wrap {
+    aspect-ratio: 1 / 1;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+
+  .popular-badge {
+    top: 8px;
+    right: 8px;
+    padding: 3px 7px;
+    font-size: 0.58rem;
+  }
+
+  .menu-card-header {
+    align-items: flex-start;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+
+  .menu-card-cat { font-size: 0.6rem; }
+  .menu-card-price { font-size: 0.78rem; padding: 3px 7px; }
+  .menu-card-name { font-size: 0.92rem; }
+  .menu-card-desc { font-size: 0.76rem; }
+  .menu-card-portion-hint { font-size: 0.66rem; }
+
+  .menu-card-actions {
+    gap: 6px;
+    padding-top: 9px;
+  }
+
+  .menu-details-btn,
+  .menu-order-btn {
+    gap: 4px;
+    padding: 8px 5px;
+    font-size: 0.72rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .menu-card-actions { gap: 4px; }
+  .menu-details-btn,
+  .menu-order-btn { gap: 3px; padding: 7px 3px; font-size: 0.66rem; }
+  .menu-details-btn svg,
+  .menu-order-btn svg { width: 12px; height: 12px; }
+}
