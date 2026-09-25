@@ -54,7 +54,7 @@ export default function Menu() {
             Pick your <span className="pink-text">happy.</span>
           </h1>
           <p className="menu-subtext">
-            Everything is baked fresh to order in Abuja. Click on any treat to reveal its inside filling, recipe details, and order instantly.
+            Everything is baked fresh to order. Click on any treat to reveal its inside filling, recipe details, and order instantly.
           </p>
 
           <div className="menu-header-actions">

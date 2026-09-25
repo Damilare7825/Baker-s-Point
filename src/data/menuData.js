@@ -475,8 +475,4 @@ export const CONTACT_INFO = {
   ordersPhoneIntl: '2348105585849',
   enquiriesPhone: '07087985562',
   enquiriesPhoneIntl: '2347087985562',
-  address: '12 Sweet Street, Central District, Abuja, Nigeria',
-  shortAddress: '12 Sweet Street, Abuja, Nigeria',
-  hours: 'Mon–Sat, 8am–7pm',
-  sundayHours: 'Sunday: Pre-orders only'
 };

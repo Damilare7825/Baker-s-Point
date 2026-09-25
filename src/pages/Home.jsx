@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <div className="home-page dot-bg">
-      <PageMeta title="Bakers Point Bakery | Cakes, Pastries & Treats in Abuja" description="Order freshly made cakes, pastries, puff-puff, chin chin and celebration treats from Bakers Point Bakery in Abuja." />
+      <PageMeta title="Bakers Point Bakery | Cakes, Pastries & Treats" description="Order freshly made cakes, pastries, puff-puff, chin chin and celebration treats from Bakers Point Bakery." />
       {/* 1. Hero Section */}
       <section className="hero-section">
         <div className="container-wide hero-container">

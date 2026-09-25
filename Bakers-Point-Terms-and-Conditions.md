@@ -13,11 +13,8 @@ If you do not agree with these Terms, please do not use the Site or place an ord
 
 Bakers Point is a bakery offering cakes, pastries, and treats for everyday orders and celebrations.
 
-- Bakery & Kitchen Pickup: Roju Road, Ojota, Akinleye Oya, Ogun State
-- Showroom/Contact Address: 12 Sweet Street, Central District, Abuja, Nigeria
 - WhatsApp Orders: 08105585849
 - WhatsApp Enquiries: 07087985562
-- Opening Hours: Monday–Saturday, 8:00 AM–7:00 PM. Sunday: pre-orders & pickup only.
 
 ---
 

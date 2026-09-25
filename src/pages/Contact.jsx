@@ -12,7 +12,7 @@ export default function Contact() {
 
   return (
     <div className="contact-page dot-bg">
-      <PageMeta title="Contact Bakers Point Bakery | Abuja" description="Contact Bakers Point Bakery for cake orders, pastry enquiries, catering questions and custom quotes on WhatsApp." />
+      <PageMeta title="Contact Bakers Point Bakery" description="Contact Bakers Point Bakery for cake orders, pastry enquiries, catering questions and custom quotes on WhatsApp." />
       <div className="container">
         <div className="contact-split-wrapper">
           <div className="contact-dark-panel">
